@@ -307,7 +307,7 @@ img{
     
 }
 
-/* ---------------- screen  -------------*/
+/* ---------------- screen mobile  -------------*/
 
 @media screen and (max-width:768px){
     .planning .col{
@@ -364,4 +364,37 @@ img{
 }
 .testimonials p{
     padding-bottom: 20px;
+}
+
+
+
+/* ---------------- screen  -------------*/
+
+@media screen and (max-width:992px){
+    .testimonials .card{
+        padding-bottom: 40px;
+    }
+}
+
+/* ---------------- screen mobile  -------------*/
+
+@media screen and (max-width:768px){
+    .testimonials .card,
+    .testimonials .row{
+        display: block;
+        text-align: center;
+    }
+    .testimonials img{
+        margin-bottom: 10px;
+    }
+    .testimonials p,
+    .testimonials h4{
+        font-size: 20px;
+    }
+    .testimonials .row{
+        padding: 0;
+    }
+    .testimonials{
+        padding-bottom: 80px;
+    }
 }
