@@ -66,7 +66,9 @@ img{
 .half50-col{
     width: 50%;
 }
-
+.anchor{
+    position: relative;
+}
 
 
 
@@ -116,10 +118,19 @@ img{
     cursor: pointer;
 }
 
+.btn-big{
+    padding: 15px 45px;
+    color: white;
+    font-weight: 700;
+}
+
 .btn-blue{
     background-color: #0084fd;
 }
 
+.letter-spacing{
+    letter-spacing: 4px;
+}
 
 
 /*-------- intro ---------*/
@@ -130,16 +141,14 @@ img{
     width: 32%;
     margin-bottom: 20px;
 }
-
 .intro .card{
     background-color: #b5ddff;
 }
-
 .intro h2 , .intro i:not(.fa-apple){
-    color: #0084fd;
+    color: #0988ff;
 }
 .intro p{
-    color: #5a6e7f;
+    color: #586b7a;
     font-weight: 700;
     line-height: 2;
 }
@@ -156,7 +165,7 @@ img{
     font-size: 80px;
     margin-bottom: 20px;
 }
-.intro .anchor img{
+.intro .anchor .img{
     max-height: 270px;
     object-fit: contain;
     position: absolute;
