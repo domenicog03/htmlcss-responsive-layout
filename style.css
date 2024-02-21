@@ -69,6 +69,17 @@ img{
 .anchor{
     position: relative;
 }
+.col-30{
+    width: 30%;
+}
+.col-70{
+    width: 70%;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
@@ -468,5 +479,242 @@ img{
     .benefits p{
         font-size: 20px;
         line-height: 1.5;
+    }
+}
+
+
+
+
+/* ------------ about us ---------- */
+.abaut-us{
+    padding: 40px 30px 60px;
+}
+.abaut-us h2,.abaut-us h3{
+    color: #9792e4;
+}
+
+.abaut-us h2{
+    font-size: 50px;
+}
+
+.abaut-us h3{
+    font-size:25px;
+    margin: 20px 0;
+}
+
+.abaut-us .col-70{
+    padding: 0 50px 0 100px;
+}
+
+.abaut-us .col-30{
+    padding: 0 40px;
+}
+
+
+.abaut-us .col-70 > *{
+    margin-bottom: 40px;
+}
+
+
+.abaut-us .img{
+    border-radius: 50%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    text-align: center;
+}
+
+
+.abaut-us .anchor > i{
+    color: #9792e4;
+    font-size: 60px;
+    position: absolute;
+    right: 20px;
+}
+
+
+
+/* ---------------- screen   -------------*/
+
+@media screen and (max-width:992px){
+    .abaut-us{
+        padding: 60px 30px 80px;
+    }
+    .abaut-us .img{
+        max-width: 230px;
+        height: 230px;
+    }
+
+    .abaut-us h2{
+        font-size: 60px;
+    }
+
+    .abaut-us .col-70{
+        padding-left: 0;
+    }
+
+    .abaut-us .col-30{
+        padding-right: 0;
+    }
+
+    .abaut-us .anchor > i{
+        right: 10px;
+    }
+    
+}
+
+
+
+/* ---------------- screen mobile  -------------*/
+
+@media screen and (max-width:768px){
+    .abaut-us .row{
+        display: block;
+    }
+
+    .abaut-us .col-30, .abaut-us .col-70{
+        width: 100%;
+        padding: 0;
+    }
+
+    .abaut-us .anchor > i{
+        left: 160px;
+    }
+
+    .abaut-us .row .col-70 h2{
+        font-size: 50px;
+    }
+
+    .abaut-us h3{
+        font-size: 30px;
+    }
+
+    .abaut-us p{
+        font-size: 20px;
+    }
+
+    .abaut-us button{
+        letter-spacing: 2px;
+    }
+   
+}
+
+
+/*---------------- start  ---------------*/
+
+
+.get-start .container > *{
+    margin: 20px 0;
+}
+
+
+.get-start{
+    background-color: #9792e4;
+    padding: 60px 30px;
+    color: white;
+}
+
+
+.get-start h2{
+    font-size: 60px;
+    color: #fabf61;
+}
+
+.get-start h3{
+    font-size: 40px;
+}
+
+.get-start h4{
+    color: #cbc9f1;
+}
+
+
+.get-start button a{
+    color: #9792e4;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.get-start .row{
+    gap: 20px;
+}
+
+
+.get-start a{
+    color: white;
+}
+
+.deco{
+    text-decoration: none;
+}
+.get-start p{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+
+
+/* ---------------- screen    -------------*/
+
+@media screen and (max-width:992px){
+  .get-start{
+    padding: 30px;
+  }
+
+
+  .get-start h2{
+    font-size: 70px;
+  }
+
+
+  .get-start p{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+
+
+/* ---------------- screen mobile  -------------*/
+
+@media screen and (max-width:768px){
+
+    .get-start .container .row{
+        flex-wrap: nowrap;
+    }
+
+
+    .get-start .privacy{
+        word-break: normal;
+    }
+
+
+    .get-start .jst-cnt small:first-child,.get-start .class-xx{
+        white-space: nowrap;
+    }
+
+
+    .get-start h4{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+    .get-start h3{
+        font-size: 30px;
+    }
+
+
+    .get-start p{
+        width: 100%;
+    }
+
+
+    .get-start .letter-spacing{
+        letter-spacing: 3px;
     }
 }
