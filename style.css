@@ -132,6 +132,17 @@ img{
     letter-spacing: 4px;
 }
 
+.btn-purple{
+    background-color: #9792e4;
+}
+.radius{
+    border-radius: 50%;
+    border: transparent;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
 
 /*-------- intro ---------*/
 .intro{
@@ -215,4 +226,51 @@ img{
         width: 100%;
     }
     
+}
+
+
+
+/*--------------- planning -------------------*/
+
+.planning{
+    background-color: #9792e4;
+    padding: 135px 0 60px;
+    color: white;
+}
+.planning .col{
+    padding: 0 130px 0 ;
+    align-items: flex-end;
+}
+.plan{
+    padding-bottom: 140px;
+    padding-right: 33px;
+}
+.planning .card{
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 33px;
+    max-width: 400px;
+    border-radius: 50px;
+}
+.planning .text-align h2{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.planning .card .img{
+    max-height: 200px;
+    object-fit: contain;
+}
+.plan ~ h2{
+    font-size: 30px;
+}
+.planning p{
+    line-height: 2;
+}
+.planning .radius{
+    max-width: 50px;
+    max-height: 50px;
+    display: flex;
+    margin: 40px auto 0;
+    cursor: pointer;
 }
