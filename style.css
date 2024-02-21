@@ -406,31 +406,67 @@ img{
     background-color: #9792e4;
     padding: 30px;
 }
-.benefits h2,
-.benefits h3,
-.benefits p{
+
+.benefits h2,.benefits h3,.benefits p{
     margin-bottom: 20px;
 }
 .benefits h2{
     color: white;
     font-size: 40px;
 }
+
 .benefits h3{
     font-size: 20px;
 }
+
 .benefits .row{
     padding-top: 20px;
 }
+
 .benefits .card h2{
     color: #9792e4;
     font-size: 60px;
 }
+
 .benefits .card{
     background-color: white;
     color: #9792e4;
     width: 32%;
     margin-bottom: 20px;
 }
+
 .benefits p{
     color: #a3a3a3;
+}
+
+
+
+/* ---------------- screen mobile  -------------*/
+
+@media screen and (max-width:992px){
+    .benefits .card{
+        width: 49%;
+        padding-bottom: 30px;
+    }
+}
+
+/* ---------------- screen mobile  -------------*/
+
+@media screen and (max-width:768px){
+    .benefits .card{
+        width: 100%;
+    }
+    .benefits{
+        padding-top: 60px;
+    }
+    .benefits h2{
+        font-size: 35px;
+    }
+    .benefits h3{
+        font-size: 30px;
+    }
+    .benefits p{
+        font-size: 20px;
+        line-height: 1.5;
+    }
 }
