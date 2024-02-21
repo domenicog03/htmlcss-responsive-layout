@@ -85,7 +85,25 @@ img{
     color: white;
 }
 
+/* ----------- screen ----------*/
 
+@media screen and (max-width: 992px){
+    .respons-menu{
+        display: none;
+    }
+    .respons-menu-hamb{
+        display: block;
+    }
+    .header .anchor #hamb{
+        font-size: 30px;
+    }
+    .header .respons-menu-hamb{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+}
 
 /* ----- button ----------*/
 
@@ -102,3 +120,45 @@ img{
     background-color: #0084fd;
 }
 
+
+
+/*-------- intro ---------*/
+.intro{
+    padding: 50px 30px 80px;
+}
+.intro .col{
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+.intro .card{
+    background-color: #b5ddff;
+}
+
+.intro h2 , .intro i:not(.fa-apple){
+    color: #0084fd;
+}
+.intro p{
+    color: #5a6e7f;
+    font-weight: 700;
+    line-height: 2;
+}
+.col h2, .intro .half-col p{
+    margin-bottom: 20px;
+}
+.grow .card{
+    height: 100%;
+}
+.grow .card{
+    padding-bottom: 0;
+}
+.text-align > i{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.intro .anchor img{
+    max-height: 270px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+}
