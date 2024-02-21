@@ -398,3 +398,39 @@ img{
         padding-bottom: 80px;
     }
 }
+
+
+/*------------- benefici ------------- */
+
+.benefits{
+    background-color: #9792e4;
+    padding: 30px;
+}
+.benefits h2,
+.benefits h3,
+.benefits p{
+    margin-bottom: 20px;
+}
+.benefits h2{
+    color: white;
+    font-size: 40px;
+}
+.benefits h3{
+    font-size: 20px;
+}
+.benefits .row{
+    padding-top: 20px;
+}
+.benefits .card h2{
+    color: #9792e4;
+    font-size: 60px;
+}
+.benefits .card{
+    background-color: white;
+    color: #9792e4;
+    width: 32%;
+    margin-bottom: 20px;
+}
+.benefits p{
+    color: #a3a3a3;
+}
