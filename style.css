@@ -42,7 +42,7 @@ img{
 
 
 
-
+/* --------- row ---------*/
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -80,3 +80,15 @@ img{
     display: none;
 }
 
+
+
+/* ----- button ----------*/
+
+.btn{
+    padding: 10px 15px;
+    border: transparent;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+}
