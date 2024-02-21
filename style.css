@@ -8,6 +8,7 @@
 
 
 /* --------container --------*/
+
 .container{
     max-width: 1140px;
     margin: 0 auto;
@@ -23,6 +24,52 @@
     padding: 40px 25px;
 }
 
+.link{
+    list-style: none;
+    gap: 30px;
+}
+
+img{
+    width: 100%;
+}
+
+.pos{
+    position: relative;
+
+}
+
+
+
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jst-cnt{
+    justify-content: center;
+}
+.jst-btwn{
+    justify-content: space-between;
+}
+.align-item{
+    align-items: center;
+}
+.grow{
+    flex-grow: 1;
+    padding-right: 23px;
+}
+.column{
+    flex-direction: column;
+}
+.half50-col{
+    width: 50%;
+}
+
+
+
+
 /* ----------- header ----------*/
 
 .header{
@@ -32,3 +79,4 @@
 .respons-menu-hamb{
     display: none;
 }
+
